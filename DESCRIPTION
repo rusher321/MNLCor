@@ -22,3 +22,5 @@ Suggests:
 RoxygenNote: 7.1.1
 Depends: R (>= 3.4.1)
 VignetteBuilder: knitr
+URL: https://github.com/rusher321/MNLCor
+BugReports: https://github.com/rusher321/MNLCor/issues
