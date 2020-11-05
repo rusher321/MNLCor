@@ -5,12 +5,13 @@ MNLCor
 
 <!-- badges: start -->
 <!-- badges: end -->
-The goal of MNLCor is to ...
+The goal of MNLCor is to compute the nonlinear assciation between microbiome features with metadata or 
+microbiome features.
 
 Installation
 ------------
 
-You can install the released version of MNLCor from [CRAN](https://CRAN.R-project.org) with:
+You can install the released version of MNLCor from [CRAN](https://CRAN.R-project.org) with (not used):
 
 ``` r
 install.packages("MNLCor")
@@ -32,3 +33,9 @@ This is a basic example which shows you how to solve a common problem:
 library(MNLCor)
 ## basic example code
 ```
+
+TODO
+-------
+
+* the visualization of cluter result 
+* association rule between bacteria
