@@ -1,26 +1,14 @@
----
-output: github_document
----
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-
-```{r, include = FALSE}
-knitr::opts_chunk$set(
-  collapse = TRUE,
-  comment = "#>",
-  fig.path = "man/figures/README-",
-  out.width = "100%"
-)
-```
-
-# MNLCor
+MNLCor
+======
 
 <!-- badges: start -->
 <!-- badges: end -->
-
 The goal of MNLCor is to ...
 
-## Installation
+Installation
+------------
 
 You can install the released version of MNLCor from [CRAN](https://CRAN.R-project.org) with:
 
@@ -34,11 +22,13 @@ And the development version from [GitHub](https://github.com/) with:
 # install.packages("devtools")
 devtools::install_github("rusher321/MNLCor")
 ```
-## Example
+
+Example
+-------
 
 This is a basic example which shows you how to solve a common problem:
 
-```{r example}
+``` r
 library(MNLCor)
 ## basic example code
 ```
