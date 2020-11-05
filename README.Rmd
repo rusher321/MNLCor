@@ -1,0 +1,54 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# MNLCor
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of MNLCor is to estimate the nonlinear correlation between taxon and 
+metadata or taxon and taxon.
+
+## Installation
+
+You can install the released version of MNLCor from [CRAN](https://CRAN.R-project.org) with:
+
+``` r
+install.packages("MNLCor")
+```
+
+And the development version from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("rusher321/MNLCor")
+```
+## Example
+
+This is a basic example which shows you how to solve a common problem:
+
+```{r example}
+library(MNLCor)
+## basic example code
+```
+
+
+You can also embed plots, for example:
+
+```{r pressure, echo = FALSE}
+plot(pressure)
+```
+
+

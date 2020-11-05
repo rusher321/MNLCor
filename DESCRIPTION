@@ -1,0 +1,24 @@
+Package: MNLCor
+Title: Metabiome Nonlinear correlation 
+Version: 0.0.0.1
+Authors@R: 
+    person(given = "Huahui",
+           family = "Ren",
+           role = c("aut", "cre"),
+           email = "renhuahui@genomics.cn")
+Description: An implementation of an efficient heuristic to compute the 
+             nonlinear correlations between numeric vectors.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    ggplot2,
+    stats
+Suggests:
+    testthat (>= 2.1.0),
+    reshape2,
+    knitr,
+    rmarkdown
+RoxygenNote: 7.1.1
+Depends: R (>= 3.4.1)
+VignetteBuilder: knitr
