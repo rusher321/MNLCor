@@ -24,7 +24,7 @@ clusterTraj <- function(dataset, phemeta, metavar , scale = "log", span= 0.7, na
   }
   # to rm the outlier of metavar
   if(cut){
-    phemeta <- cutQuan(phemeta, metavar, quan = 0.95)
+    phemeta <- cutQuan(phemeta, metavar, quan = quan)
   }
 
   # mathch the sample id
