@@ -93,7 +93,7 @@ cutQuan <- function(phe, metavar, quan){
   phe <- phe[!is.na(phe[,metavar]), ,drop=F]
   value <- phe[,metavar]
   sortvalue <- sort(value)
-  minquan <- sortvalue[round(length(sortvalue)*(1-quan)]
+  minquan <- sortvalue[round(length(sortvalue)*(1-quan))]
   maxquan <- sortvalue[round(length(sortvalue)*quan)]
   index <- which(value>minquan & value<maxquan)
   return(phe[index, ,drop=F])
